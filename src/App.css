@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.student {
+  margin-bottom: 20px;
+}
+
+.student label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.student-input {
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.question-input-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.question-input,
+.answer-input,
+.value-input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ocr-component {
+  margin-top: 20px;
+}
+
+.file-input {
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.file-input label {
+  margin-right: 20px;
+  padding-right: 10px;
+}
+
+.method-select {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.method-select select {
+  padding: 10px;
+  width: 100%;
+  max-width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ocr-button button {
+  display: flex;
+  margin-left: 50px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.ocr-button button:hover {
+  background-color: #45a049;
+}
+
+.ocr-result {
+  margin-top: 20px;
+}
+
+.ocr-result h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ocr-result textarea{
+  background-color:#f9f9f9 ;
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: 'none';
+}
+
+.criteria-component {
+  margin-top: 20px;
+}
+
+.criteria-input input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.criteria-input{
+  display: block;
+  
+}
+
+.value-input{
+  display: block;
+} 
+
+.new-criteria button{
+  margin-left: 50px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.criteria-list {
+  margin: 20px;
+  padding-bottom: 10px;
+  background-color: #ededed;
+  border-radius: 5px;
+}
+
+.criteria-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.criteria-list li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.question-evaluation textarea{
+  background-color:#f9f9f9 ;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  resize: 'none';
+}
+
+.overall-evaluation textarea{
+  background-color:#f9f9f9 ;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: 'none';
+}
+
+
